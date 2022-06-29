@@ -12,7 +12,7 @@ Each folder represents a day in the week, and inside each folder (thus inside ea
 
 The text file is split into blocks of four lines each block is called Unit.
 Each line of the four describes information for each Unit like (course name, instructor, time slot, department) and they are stacked in contiguous lines. 
-Blank lines separates between units.
+Blank lines separate between units.
 
 A helper file named info.txt carries relation between aliases (nicknames) you should give to day names and hall names (to simplify the process of repeating the place name whatever your language is, also to improve readability, structure and localization)
 
@@ -29,5 +29,5 @@ So it was a tedious task to search for a course in the four departments.
 1. Clone this repo using <code>git clone https://github.com/bassem-essam/schedule.git</code>.
 2. Edit files info.txt and every all files inside data directory according to the specific structure above.
 3. Run <code>python prepare.py</code>
-4. Run  <code>npm start</code> to start react development server until the data is well reflected.
+4. Run  <code>npm start</code> to start react development server until you fill all the data.
 5. Run <code>npm bulid</code> and use the produced site (under build directory) anywhere you like.
