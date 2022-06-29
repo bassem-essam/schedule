@@ -1,70 +1,25 @@
-# Getting Started with Create React App
+# Schedule
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple web app built with React & Material UI.
+It is an interactive schedule for courses of the 3rd semester at FCIS, ASU.
+It is made to simply show the user all the available time slots for a given course or a collection of courses based on a given filter.
 
-## Available Scripts
+## Structure
+Data is arranged in a hierarchical structure in a root directory called 'data'. 
+Each folder represents a day in the week, and inside each folder (thus inside each day), there are the text files corresponding to each place or hall in your college.
+The text file is split into blocks of four lines each block is called Unit.
+Each line of the four describes information for each Unit like (course name, instructor, time slot, department) and they are stacked in contiguous lines. 
+Blank lines separates between units.
+A helper file named info.txt carries relation between aliases (nicknames) you should give to day names and hall names (to simplify the process of repeating the place name whatever your language is, also to improve readability, structure and localization)
+The first line has day aliases to day names, while the following lines describe hall definitions.
 
-In the project directory, you can run:
+## Why
+I created this project as there are many common courses among all the departments in my current semester, and each department has different time slots for lectures and sections (classes). When I was absent for a lecture or section for some reason, I would like to know the best suitable time slot available for me.
+So it was a tedious task to search for a course in the four departments. 
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## How to run
+1. clone this repo using <code>git clone https://github.com/bassem-essam/schedule.git</code>.
+2. edit files info.txt and every all files inside data directory according to the specific structure above.
+3. run <code>python prepare.py</code>
+4. run  <code>npm start</code> to start react development server until the data is well reflected.
+5. run <code>npm bulid</code> and use the produced site (under build directory) anywhere you like.
