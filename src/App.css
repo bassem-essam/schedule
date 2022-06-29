@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  color: #111;
+  padding: 0;
+  margin: 0;
+  font-size: 0.8em;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #fefefe;
+}
+
+h1 {
+  text-align: center;
+}
+
+#App {
+  margin: 0 auto;
+  padding: 25px;
+}
+
+.normal {
+  background: #fefefe;
+}
+
+.hands-on {
+  background-color: #55ff5555;
+}
+
+.over {
+  background-color: #5555aa55;
+}
+
+span.txt-info {
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+span.txt-subject {
+  font-weight: bold;
+}
+
+thead {
+  font-size: 18px;
+  font-weight: bold;
+  background: #ccc9;
+  text-align: center;
+}
+
+#form-filter {
+  padding: 10px;
+  font-size: 1.5em;
+}
+
+td, .cell {
+  padding: 5px;
+  vertical-align: text-top;
+  border: 1px solid black;
+}
+
+.empty {
+  background: #888;
+}
+
+td.day-head, td.place-head {
+  font-weight: bold;
+}
+
+td.day-head, tr.last-row td {
+  border-bottom: solid black 5px;
+}

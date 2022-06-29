@@ -1,0 +1,34 @@
+1. Determine the hierarchy of components
+2. Implement them in (a bottom up approach)
+
+Hierarchy:
+App
+    FilterBar
+    ResultView
+        Table
+            Head
+            Row
+                Lecture (Column)
+        Series
+            Lecture
+
+Table divides data into separate days
+    each day takes its subjects only 
+        and pass it to ScheduledLectures
+            which does right placement
+
+
+2/4/2022 10:36 PM
+Download all the schedules, style the table
+
+4/5/2022 02:47 PM
+Rearrange data into a big list of materials
+and a dictionaries of what you can get materials with
+(like a subject name is key and list of indices it appears in
+as a value)
+
+8/5/2022 5:14 PM
+Add arrow in TableHeading
+Add section filtering
+Add checkboxes for lectures and sections
+maybe add a checkbox for all subject filter

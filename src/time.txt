@@ -1,0 +1,101 @@
+2/4/2022 (first night in Ramadan)
+12:24 AM --> 1:12 AM | 1:22 AM --> 3:05 AM
+Made a hierarchical table.
+
+5:14 PM --> 6:00 PM
+Now lecture just fits into its time (by index from 1 to 6)
+Decided on a way to store data in files
+Script prepare.py is now here.
+
+10:50 PM --> 2:20 AM
+Copying and pasting from schedules to my files
+Made some styling, added little test filters
+(most of time copying pasting, trust me, it takes
+a while). I think you could learn ocr or something
+to automate this, but it mostly will take more time
+than copy paste.
+
+10/4 Sunday (Mid night)
+1:12 AM --> 1:49 AM
+Made style changes, finally added IS table in my data
+Now all tables are complete (I hope they are correct).
+
+1:49 AM --> 2:50 AM
+Trying filtering with simple string first,
+then fighting with state objects.
+the fight didn't end yet.
+
+13/4 Wed
+3:12 AM --> 3:25 AM | 5:44 AM --> 6:04 AM
+State object (filter) passed and gets updated successfully
+5:14 AM -> 5:44 AM
+Testing how to pass object and update it in a child
+
+19/4 Tue
+8:00 AM
+
+25/4 Mon
+2:30 AM --> 3:07 AM
+
+11:15 PM --> 3:07 AM
+tried using only TableRows and TableCells but it's also messed up
+Fixed combining filters
+changed who (to department and section), made subject and instructors unique.
+Added Select menu.
+opened facebook for some time in it
+
+
+26/4 Tue
+5:31 AM --> 7:00 AM
+I don't remember but 
+maybe I added an initial grid
+
+27/4 Wed
+1:04 AM --> 3:20 AM
+Played with containers and grids
+but finally solved the problem
+where was no space between grid items
+but rather the spacing is inside the grid
+item so you only need to put a box 
+inside the grid item
+
+4/5 Wed
+2:45 PM --> 3:00 PM | 3:15 PM --> 3:30 PM
+renamed ListOfLectures to GridView and put it into 
+a single file in folder components
+started writing a pattern in sed and grep to extract 
+Material UI Components
+
+5/5 Thu
+1:25 AM --> 3:28 AM
+Made an object of courses to list of indices of 
+lectures or sections
+which makes it faster to filter
+
+4:47 AM --> 5:02 AM
+Improved TableHeading slots.
+
+5:02 AM --> 7:28 AM
+made object (dictionary) of departments
+tried changing the chaining of filters (worked but not very satisfying)
+tried adding multi select chip but gave errors.
+
+6/5 Fri
+7:15 PM --> 8:14 PM
+made multi select
+
+8/5 Sun
+5:12 PM --> 5:30 PM | 7:05 PM --> 8:13 PM
+10:45 PM --> 11:55 PM | 
+4:10 AM --> 5:36 PM
+Working on lecturing and indices
+
+
+9/5 Mon
+1:15 PM --> 3:39 PM
+Trying to split lectures and sections side by side and connecting them 
+but errors are playing hard.
+
+5:41 PM --> 8:19 PM
+
+9:32 PM -->
