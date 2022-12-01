@@ -1,0 +1,28 @@
+{
+  "importance": [
+    {
+      "filter": {
+        "dept": ["CS", "SC"],
+        "subject": "Neural Networks",
+        "whom": [1, 2, 3, 4, 5, 6]
+      },
+      "value": "No Neural Networks sections this week",
+      "type": "Cancelled",
+      "start": "Sat 3/12",
+      "end": "Thu 8/12"
+    }
+  ],
+  "announcements": [
+    {
+      "filter": { "dept": "CS", "subject": "Neural Networks" },
+      "value": "Neural Networks Task 3 Delivery",
+      "end": "Fri 2/12 11:59 PM"
+    },
+    {
+      "filter": { "dept": ["CS", "SC"], "subject": "Neural Networks" },
+      "value": "Neural Networks Task 3 Delivery & Discussion",
+      "start": "Sat 3/12",
+      "end": "Thu 8/12"
+    }
+  ]
+}
