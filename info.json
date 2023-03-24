@@ -2,27 +2,44 @@
   "importance": [
     {
       "filter": {
-        "dept": ["CS", "SC"],
-        "subject": "Neural Networks",
+        "dept": ["CS"],
+        "subject": "Logic programming",
         "whom": [1, 2, 3, 4, 5, 6]
       },
-      "value": "No Neural Networks sections this week",
-      "type": "Cancelled",
-      "start": "Sat 3/12",
-      "end": "Thu 8/12"
+      "value": "Logic Programming: Hands-on in sections",
+      "type": "Hands-on",
+      "start": "Sat 10/12"
+    },
+    {
+      "filter": {
+        "dept": ["CS"],
+        "subject": "Image Processing",
+        "whom": [1, 2, 3, 4, 5, 6]
+      },
+      "value": "Image Processing Quiz on all labs (at your original section-time)",
+      "type": "Quiz",
+      "start": "Sat 10/12"
+    },
+    {
+      "filter": {
+        "dept": ["CS", "SC", "CSYS"],
+        "subject": "IOT",
+        "whom": [1, 2, 3, 4, 5, 6]
+      },
+      "value": "No more IOT Sections (only support at Saturday and Sunday from 12 to 2:30 PM)",
+      "type": "cancelled"
+    },
+    {
+      "filter": {
+        "dept": ["CS", "SC", "CSYS"],
+        "subject": "IOT",
+        "whom": [0]
+      },
+      "value": "Attendance is very important in IOT Lecture",
+      "type": "Attendance",
+      "start": "Sat 3/12"
     }
   ],
   "announcements": [
-    {
-      "filter": { "dept": "CS", "subject": "Neural Networks" },
-      "value": "Neural Networks Task 3 Delivery",
-      "end": "Fri 2/12 11:59 PM"
-    },
-    {
-      "filter": { "dept": ["CS", "SC"], "subject": "Neural Networks" },
-      "value": "Neural Networks Task 3 Delivery & Discussion",
-      "start": "Sat 3/12",
-      "end": "Thu 8/12"
-    }
   ]
 }
